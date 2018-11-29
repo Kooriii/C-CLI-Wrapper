@@ -24,6 +24,8 @@ namespace KooriScript
             Console.WriteLine(e.name);
             Console.WriteLine(e.x_position + "  " + e.y_position);
 
+            PrintNumber(1000);
+
             Console.ReadLine(); // "getchar()"
         }
     }
